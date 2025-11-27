@@ -75,6 +75,12 @@ h2 {
 
 }
 
+/*Game library cards*/
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /*media queries*/
 
 /*medium devices (tablets, 768px and up)*/
