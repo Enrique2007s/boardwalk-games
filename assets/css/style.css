@@ -119,6 +119,7 @@ h2 {
     padding-bottom: 3rem;
     /* Keep anchored element visible when jumped to (prevents header overlap) */
     scroll-margin-top: 96px;
+    width: 100%;
 }
 
 #contact h2 {
@@ -155,6 +156,19 @@ h2 {
     background-color: transparent;
 }
 
+/*events page*/
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.background-blue {
+    background-color: var(--highlight-color);
+    color: white
+}
 
 
 
