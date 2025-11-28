@@ -47,15 +47,6 @@ h2 {
 
 }
 
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 /*buttons*/
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
@@ -141,6 +132,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -160,9 +153,15 @@ h2 {
 /*events page*/
 
 .center-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
 }
 
