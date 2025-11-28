@@ -19,6 +19,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top:41.64px; /* to prevent content being hidden behind fixed navbar */
 }
 
 h1,
